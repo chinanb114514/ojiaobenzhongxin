@@ -43,7 +43,7 @@ local Window = OrionLib:MakeWindow({Name = "霜中心", HidePremium = false, Sav
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "霜中心"; Text ="霜中心"; Duration = 4; })
 
 local about = Window:MakeTab({
-    Name = "霜制作",
+    Name = "哦制作",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -58,22 +58,22 @@ local Tab =Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "复制霜QQ",
+	Name = "复制哦QQ",
 	Callback = function()
-     setclipboard("3557706928")
+     setclipboard("2308230889")
   	end
 })
 
 Tab:AddButton({
 	Name = "复制QQ群",
 	Callback = function()
-     setclipboard("没有")
+     setclipboard("955647346")
   	end
 })
 
 OrionLib:MakeNotification({
-	Name = "霜脚本",
-	Content = "欢迎使用霜脚本",
+	Name = "哦脚本",
+	Content = "欢迎使用哦脚本",
 	Image = "rbxassetid://4483345998",
 	Time = 2
 
@@ -113,7 +113,7 @@ local Tab = Window:MakeTab({
 
 local Section = Tab:AddSection({
 
-	Name = "欢迎霜"
+	Name = "欢迎哦"
 
 })
 
