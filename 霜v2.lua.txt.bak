@@ -39,8 +39,8 @@ local function HeartbeatUpdate()
 end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
-local Window = OrionLib:MakeWindow({Name = "霜中心", HidePremium = false, SaveConfig = true,IntroText = "霜中心", ConfigFolder = "霜中心"})
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "霜中心"; Text ="霜中心"; Duration = 4; })
+local Window = OrionLib:MakeWindow({Name = "哦中心", HidePremium = false, SaveConfig = true,IntroText = "哦中心", ConfigFolder = "哦中心"})
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "哦中心"; Text ="哦中心"; Duration = 4; })
 
 local about = Window:MakeTab({
     Name = "哦制作",
