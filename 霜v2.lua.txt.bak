@@ -839,11 +839,11 @@ local Tab = Window:MakeTab({
 
 Tab:AddButton({
 
-    Name="鹰眼汉化doors",
+    Name="ms汉化doors",
 
     Callback=function()
 
-        loadstring(game:HttpGet("https://shz.al/~doors11"))()
+        getgenv().Spy="mspaint" loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoXuAnZang/XKscript/refs/heads/main/DOORS.txt"))()
 
     end
 
