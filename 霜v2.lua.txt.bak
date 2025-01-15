@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/FUEx0f3G"))()
+本地OrionLib=loadstring(游戏：HttpGet("https://pastebin.com/raw/FUEx0f3G"))()
 local LBLG = Instance.new("ScreenGui", getParent)
 local LBL = Instance.new("TextLabel", getParent)
 local player = game.Players.LocalPlayer
@@ -4921,7 +4921,7 @@ Tab:AddButton({
 
 name="普通十字架"，
 
-callback=函数()
+回调=函数()
 
 loadstring(游戏：HttpGet("https://raw.githubusercontent.com/cbhlyy/lyycbh/main/shizizhen"))()
 
@@ -4931,7 +4931,7 @@ loadstring(游戏：HttpGet("https://raw.githubusercontent.com/cbhlyy/lyycbh/mai
 
 本地选项卡=窗口：MakeTab({
 
-name="刀刃球"，
+姓名="刀刃球"，
 
 icon="rbxassetid://4483345998"，
 
@@ -4939,11 +4939,11 @@ PremiumOnly=false
 
 })
 
-选项卡：AddButton({
+选项卡：addButton({
 
 姓名="刀刃球"，
 
-callback=函数()
+回调=函数()
 
 loadstring(游戏：HttpGet("https://raw.githubusercontent.com/jiankeQWQ/jiankeV3/main/daorenqiu"))()
 
@@ -4953,7 +4953,7 @@ loadstring(游戏：HttpGet("https://raw.githubusercontent.com/jiankeQWQ/jiankeV
 
 本地选项卡=窗口：MakeTab({
 
-name="其余脚本"，
+姓名="其余脚本"，
 
 icon="rbxassetid://4483345998"，
 
@@ -4961,17 +4961,18 @@ PremiumOnly=false
 
 })
 
-选项卡：AddButton({
+Tab:AddButton({
 
-姓名="皮脚本"，
+    Name="1",
 
-callback=函数()
+    Callback=function()
 
-getgenv().XiaoPi="皮脚本QQ群1002100032"loadstring(game:HttpGet("https://raw.githubusercontent.com/xiaopi77/xiaopi77/main/QQ1002100032-Roblox-Pi-script.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FreeRobloxScripts/anime-fighting/main/simulator"))()
 
-结束
+    end
 
 })
+
 
 
 
