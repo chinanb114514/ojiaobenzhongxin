@@ -4953,7 +4953,7 @@ loadstring(游戏：HttpGet("https://raw.githubusercontent.com/jiankeQWQ/jiankeV
 
 本地选项卡=窗口：MakeTab({
 
-姓名="其余脚本"，
+姓名="法宝模拟器"
 
 icon="rbxassetid://4483345998"，
 
